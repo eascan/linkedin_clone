@@ -1,4 +1,4 @@
-import {Avatar, Input} from "@material-ui/core";
+import {Avatar} from "@material-ui/core";
 import React from "react";
 import InputOption from "./InputOption";
 import "./Post.css";
