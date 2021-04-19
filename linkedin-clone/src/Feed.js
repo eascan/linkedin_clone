@@ -7,9 +7,23 @@ import SubscriptionsIcon from "@material-ui/icons/Subscriptions";
 import EventNoteIcon from "@material-ui/icons/EventNote";
 import CalendarViewDayIcon from "@material-ui/icons/CalendarViewDay";
 import Post from "./Post";
+import {db} from "./firebase";
 
 function Feed() {
   const [posts, setPosts] = useState([]);
+
+  useEffect(() => {
+    db.collection("posts").onSnapshot((snapshot) =>
+      setPosts(
+        snapshot.docs.map((doc) => ({
+          id: doc.id,
+          data: doc.data(),
+        }))
+      )
+    );
+
+    return () => {};
+  }, []);
 
   const sendPost = (e) => {
     e.preventDefault();
