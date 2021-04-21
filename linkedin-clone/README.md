@@ -2,6 +2,11 @@
 
 This is a single-page application mini clone of LinkedIn, that allows a user to register and create posts on the main feed. I worked on this application witht the intention of learning the basics Redux, Firebase, and to further develop my React knowledge.
 
+## Screenshots
+
+!["Home page"](https://github.com/eascan/linkedin_clone/blob/master/linkedin-clone/docs/LinkedInClone.png)
+!["Login page"](https://github.com/eascan/linkedin_clone/blob/master/linkedin-clone/docs/LinkedInCloneLogin.png)
+
 ## Key Features
 
 - Firebase database storage
