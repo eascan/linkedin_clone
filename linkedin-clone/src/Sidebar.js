@@ -23,7 +23,7 @@ function Sidebar() {
           src="https://www.geeklawblog.com/wp-content/uploads/sites/528/2018/12/liprofile-656x369.png "
           alt=""
         />
-        <Avatar src={user.photoUrl} className="sidebar__avatar">
+        <Avatar src={user.photoURL} className="sidebar__avatar">
           {user.email[0]}
         </Avatar>
         <h2>{user.displayName}</h2>

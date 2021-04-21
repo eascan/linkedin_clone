@@ -56,7 +56,6 @@ function Feed() {
             <input
               value={input}
               onChange={(e) => setInput(e.target.value)}
-              value={input}
               type="text"
             />
             <button onClick={sendPost} type="submit">

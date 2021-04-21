@@ -59,7 +59,8 @@ function Login() {
   return (
     <div className="login">
       <img
-        src="https://news.hitb.org/sites/default/files/styles/large/public/field/image/500px-LinkedIn_logo.svg__1.png?itok=q_lR0Vks"
+        // src="https://news.hitb.org/sites/default/files/styles/large/public/field/image/500px-LinkedIn_logo.svg__1.png?itok=q_lR0Vks"
+        src="https://1000logos.net/wp-content/uploads/2017/03/Linkedin-Logo.png"
         alt=""
       />
 
@@ -73,7 +74,7 @@ function Login() {
         <input
           value={profilePic}
           onChange={(e) => setProfilePic(e.target.value)}
-          placeholder="Porfile picture URL"
+          placeholder="Profile picture URL"
           type="text"
         />
         <input
