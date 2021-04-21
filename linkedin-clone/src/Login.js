@@ -64,6 +64,9 @@ function Login() {
         alt=""
       />
 
+      <h2>This is a LinkedIn Clone project</h2>
+      <h3>Please do not use real login information</h3>
+
       <form>
         <input
           value={name}
