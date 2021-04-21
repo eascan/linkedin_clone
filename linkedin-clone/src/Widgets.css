@@ -35,3 +35,24 @@
   color: #0177b7;
   margin-right: 5px;
 }
+
+.widgets__articleLeft > .mui__icon {
+  font-size: 15px;
+}
+
+.widgets__articleRight {
+  flex: 1;
+}
+
+.widgets__articleRight > h4 {
+  font-size: 14px;
+}
+
+.widgets__articleRight > p {
+  font-size: 12px;
+  color: gray;
+}
+
+.widget__headerIcon {
+  color: gray;
+}

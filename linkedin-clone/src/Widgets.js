@@ -7,7 +7,7 @@ function Widgets() {
   const newsArticle = (heading, subtitle) => (
     <div className="widgets__article">
       <div className="widgets__articleLeft">
-        <FiberManualRecordIcon />
+        <FiberManualRecordIcon className="mui__icon" />
       </div>
 
       <div className="widgets__articleRight">
@@ -21,7 +21,7 @@ function Widgets() {
     <div className="widgets">
       <div className="widgets__header">
         <h2>LinkedIn News</h2>
-        <InfoIcon />
+        <InfoIcon className="widget__headerIcon" />
       </div>
 
       {newsArticle("Top news", "9099 readers")}
